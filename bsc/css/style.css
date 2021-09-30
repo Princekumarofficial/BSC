@@ -1,0 +1,32 @@
+body{
+    background-color: #FFF8E5;
+    font-family: 'Merriweather', serif;
+}
+
+h1{
+    color: #00A19D;
+    font-family: 'Gemunu Libre', sans-serif;
+}
+
+h3{
+    color: #00A19D;
+    font-family: 'Montserrat', sans-serif;
+}
+
+h4{
+    color: #E05D5D;
+    font-family: 'Montserrat', sans-serif;
+}
+
+hr{
+    border-color: #FFB344;
+}
+
+.logo{
+    width: 20%;
+    height: 20%;
+}
+
+.logo1{
+    text-align: center;
+}
