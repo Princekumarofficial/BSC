@@ -1,0 +1,20 @@
+.dwm{
+    height: 400px;
+    width: auto;
+}
+
+img{
+    width: 400px;
+}
+
+.photos{
+    position: absolute;
+    right: 0%;
+    top: 100px;
+}
+
+.shani{
+    height: 300px;
+    width: 300px;
+    display: inline;
+}
