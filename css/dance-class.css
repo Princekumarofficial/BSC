@@ -7,10 +7,15 @@ img{
     width: 400px;
 }
 
+.main{
+    width: 40%;
+}
+
 .photos{
     position: absolute;
     right: 0%;
     top: 100px;
+    width: 55%;
 }
 
 .shani{
