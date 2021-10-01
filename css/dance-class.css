@@ -1,25 +1,44 @@
-.dwm{
-    height: 400px;
-    width: auto;
+/* For Desktop View */
+@media screen
+  and (min-width: 1024px){
+    .dwm{
+        height: 400px;
+        width: auto;
+    }
+    
+    img{
+        width: 400px;
+    }
+    
+    .main{
+        width: 40%;
+    }
+    
+    .photos{
+        position: absolute;
+        right: 0%;
+        top: 100px;
+        width: 55%;
+    }
+    
+    .shani{
+        height: 300px;
+        width: 300px;
+        display: inline;
+    }
+}
+ 
+/* For Mobile Phones Portrait or Landscape View */
+@media screen
+  and (max-device-width: 640px){
+
+    body{
+        text-align: center;
+    }
+
+    img{
+        width: 90%;
+    }
+
 }
 
-img{
-    width: 400px;
-}
-
-.main{
-    width: 40%;
-}
-
-.photos{
-    position: absolute;
-    right: 0%;
-    top: 100px;
-    width: 55%;
-}
-
-.shani{
-    height: 300px;
-    width: 300px;
-    display: inline;
-}
