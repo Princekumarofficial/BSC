@@ -64,6 +64,8 @@ body{
 .contacts{
     position: fixed;
     text-align: right;
+    font-weight: bolder;
+    color:#E05D5D
 }
 
 /* .bsclogo{

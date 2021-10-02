@@ -2,18 +2,51 @@
 @media screen
   and (min-width: 1024px){
     body{
-        background-image: url("../images/agriculture.jpg");
+        background-image: url("../images/agriculture.jpeg");
         background-size: 100%;
     }
+
+    img{
+      width: 400px;
+    }
+
 }
  
 /* For Mobile Phones Portrait or Landscape View */
 @media screen
   and (max-device-width: 640px){
-    .gfg-div{
-      width: 400px;
-      height: 200px;
-      background-color: chartreuse;
-      color: black;
+
+    body{
+      background-image: url("../images/agri\ \(2\).jpeg");
+      background-attachment: fixed;
     }
+
+    table{
+      width: 100%;
+    }
+
+    img{
+      width: 100%;
+    }
+
+}
+
+body{
+  background-attachment: fixed;
+  text-align: center;
+}
+
+.h1{
+  color: white;
+  background-color: green;
+}
+
+table, th, td {
+  border: 5px solid #FFF8E5;
+  padding: 0%;
+}
+
+.photos{
+  position: absolute;
+  right: 0%;
 }
